@@ -16,9 +16,6 @@ yolov8-license-plate-detection/
 │   └──  (Utility functions for data processing, bounding box operations, NMS, DFL, etc.)
 ├── config/
 │   └──  (Configuration files for model architecture, training parameters, dataset paths)
-├── notebooks/
-│   └── yolo8(1).ipynb (Original Jupyter notebook for reference)
-├── train.py
 ├── predict.py
 ├── requirements.txt
 ├── README.md
