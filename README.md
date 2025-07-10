@@ -41,7 +41,6 @@ yolov8-license-plate-detection/
 
 -   `requirements.txt`: This file will list all the Python dependencies required to run the project. It ensures that anyone setting up the project can easily install all necessary libraries, promoting reproducibility and ease of setup. This will include `torch`, `torchvision`, `numpy`, `opencv-python-headless`, `Pillow`, `PyYAML`, `tqdm`, and `roboflow`.
 
--   `.gitignore`: This file specifies intentionally untracked files that Git should ignore. This typically includes build artifacts, temporary files, downloaded datasets, and sensitive information like API keys or model weights, keeping the repository clean and focused on the source code.
 
 This structured approach enhances code readability, maintainability, and scalability, making it easier for others to understand, contribute to, and extend the project.
 
