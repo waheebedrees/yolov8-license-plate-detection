@@ -32,7 +32,6 @@ yolov8-license-plate-detection/
 
 -   `config/`: All configurable parameters for the model, training process, and dataset will be stored here. This allows for easy modification of hyperparameters, model architectures, and data paths without altering the core code. YAML files are a good choice for this purpose, providing a human-readable and structured format for configurations.
 
--   `notebooks/`: The original Jupyter notebook (`yolo8(1).ipynb`) will be kept here for reference. This allows for easy comparison with the refactored code and serves as a historical record of the initial implementation.
 
 ### Core Files:
 
