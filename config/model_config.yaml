@@ -1,0 +1,31 @@
+model:
+  n_classes: 1 # Number of classes for license plate detection
+  phi: l # Model size: n, s, m, l, x
+
+train:
+  epochs: 100
+  batch_size: 16
+  img_size: [640, 640]
+  optimizer: Adam
+  learning_rate: 0.001
+  weight_decay: 0.0005
+  momentum: 0.9
+  iou_mode: ciou # iou, giou, diou, ciou
+  reg_max: 16 # DFL regularization max
+  bbox_weight: 7.5
+  cls_weight: 0.5
+  dfl_weight: 1.5
+  confidence_thresh: 0.25
+  iou_thresh: 0.45
+
+dataset:
+  path: ../data/ # Path to the dataset root directory
+  train: train/images
+  val: valid/images
+  test: test/images
+  train_labels: train/labels
+  val_labels: valid/labels
+  test_labels: test/labels
+  names: ["license_plate"] # Class names
+
+

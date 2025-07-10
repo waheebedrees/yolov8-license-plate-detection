@@ -1,0 +1,28 @@
+
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore .env files
+*.env
+*.venv
+# Ignore database file (if using SQLite)
+# Virtual environment
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+
+
+# VSCode or IDE configs
+.vscode/
+.idea/
